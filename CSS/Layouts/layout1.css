@@ -1,0 +1,85 @@
+p{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.profile{
+    width:350px;
+    margin-bottom: 20px;
+
+    
+
+}
+
+.profile-pic{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+    vertical-align: middle;
+
+}
+
+.pdesc{
+    width: 80px;
+    vertical-align: middle;
+        margin-bottom: 2px;
+
+}
+
+.profilename{
+    font-weight: bold;
+    font-size: 10px;
+
+
+}
+
+.profiledesc{
+    color: grey;
+    font-size: 12px;
+
+}
+
+.profilestatus{
+    color: grey;
+    font-size: 12px;
+
+
+
+}
+
+
+.pdesc{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+.button-div{
+    display: inline-block;
+}
+
+
+
+.follow{
+    margin-left: 100px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 70px;
+    height: 28px;
+    transition: opacity 0.4s;
+}
+
+.follow:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.follow:active{
+    background-color: rgb(98, 176, 255);
+}
+
+
