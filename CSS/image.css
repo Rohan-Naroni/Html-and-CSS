@@ -35,7 +35,9 @@ button, p, h1,h2,h3,h4,h5,h6{
 
 
 
-
+.googleimg{
+   margin-left: 132px;
+}
 
 
 
@@ -50,6 +52,7 @@ button, p, h1,h2,h3,h4,h5,h6{
     margin-bottom: 30px;
     color: rgb(96,96,96);
     outline: none;
+    display: block;
 
 }
 
@@ -57,7 +60,11 @@ button, p, h1,h2,h3,h4,h5,h6{
 
 
 
-
+.tweet{
+    box-shadow: 2px 2px 10px  rgba(0, 0, 0, 0.3);
+    width: 430px;
+    border-radius: 10px;
+}
 
 
 .cat-image4{
@@ -97,3 +104,150 @@ button, p, h1,h2,h3,h4,h5,h6{
 
 }
 
+
+
+
+
+
+
+
+
+
+.div-example{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    display: inline-block;
+}
+
+
+.div-example1{
+    margin-left: 10px;
+    width: 330px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid;
+    border-color:  black;
+}
+
+.servicedesc{
+    margin-left: 20px;
+}
+.btn-yes{
+
+    margin-left: 20px;
+    
+}
+
+
+.div-example2{
+    background-color: black;
+    margin-left: 10px;
+    width: 430px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid;
+    border-color:  black;
+}
+
+.ytmusic1{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+
+.ytmusic2{
+    color: white;
+    margin-left: 20px;
+
+}
+
+
+
+/* .div-example3{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    display: inline-block;
+    border-radius: 50%;
+} */
+
+
+
+
+
+.card1{
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    display: inline-block;
+
+}
+
+
+.card2{
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.card3{
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    display: inline-block;
+
+}
+
+
+.cci{
+    object-fit: cover;
+    width: 100%;
+    height: 60%;
+}
+
+
+.c-name{
+    margin-top: 0;
+    margin-left: 8px;
+    margin-top: 2px;
+    font-weight: bold;
+    margin-bottom: 0%;
+    
+}
+
+.c-description{
+    margin-top: 3px;
+    margin-left: 8px;
+    font-size: 10px;
+    color: grey;
+    
+}
+
+.c-button{
+    background-color: dodgerblue;
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 8px;
+
+}
