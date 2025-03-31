@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  /* grid-template-columns: 220px; */
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  column-gap: 10px;
+  row-gap: 10px;
+  margin: 10px 0 0 10px;
+  /* top right bottom left */
+
+}
+
+.card {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.453);
+  height: 100%; /* Ensures all cards have equal height */
+
+}
+
+.card-img {
+width: 100%;
+height: 160px;
+}
+
+.profile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-name {
+  font-weight: bold;
+}
+
+.card-content {
+  padding-left: 8px;
+  padding: 5px;
+
+}
+
+.mutual-content {
+  margin-top: 5px;
+}
+
+.mutual-img {
+  object-fit: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.mutual-friends {
+  display: inline-block;
+  vertical-align: middle;
+  color: grey;
+}
+
+.friend-btn {
+    
+    padding: 5px;
+    padding-left: 8px;
+padding-top: 28px;
+}
+
+.add-friend-btn {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
